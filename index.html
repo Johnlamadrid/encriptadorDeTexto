@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="assets/icon.svg">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Encriptador de texto</title>
+</head>
+<body>
+    <!--encabezado -->
+    <header>
+        <a href="a">
+            <img src="assets/Logo.png" alt="Logo Alura" class="logo">
+        </a>
+    </header>
+    <!--Juego-->
+    <main>
+        <section class="encriptador">
+            <textarea class="encriptar" placeholder="Ingrese texto aquí"></textarea>
+            <div class="encriptador--aviso">
+                <img src="assets/Frame1.png" alt="icono de aviso" class="image--aviso">
+            </div>
+            <div class="encripta--contenedor">
+                <button type="submit" class="boton--encriptar">Encriptar</button>
+                <button type="submit" class="boton--desencriptar">Desencriptar</button>
+            </div>
+        </section>
+        <section class="dibujo">
+            <div class="dibujo--contenedor">
+                <img src="assets/muñeco.svg" alt="Imagen muñeco" class="dibujo--muñeco">
+                <p class="textom--uno">Ningún mensaje fue encontrado</p>
+                <p class="textom--dos">Ingresa el texto que desees encriptar o desencriptar.</p>
+            </div>
+            <textarea type="mensaje" class="evaluar" readonly></textarea>
+            <button type="submit" class="boton--copiar">Copiar</button>
+        </section>
+    </main>
+
+    <!--footer-->
+    <footer>
+        <p class="footer">Encriptador de texto desarrollado por John La Madrid</p>
+    </footer>
+
+    <script src="js/encriptador.js"></script>
+</body>
+</html>
